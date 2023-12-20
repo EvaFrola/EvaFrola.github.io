@@ -1,0 +1,114 @@
+* {
+    font-size: 20px;
+    font-family: 'Courier New';
+}
+
+/*Estilo para el encabezado*/
+
+.cabecera {
+    background-color: #6096B4;
+    color: #0A2647;
+}
+
+div.contenido_cabecera {
+display: flex;
+justify-content: start;
+}
+.cabecera img {
+    padding: 20px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.cabecera h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    align-self: center;
+}
+
+/*Barra lateral izquierda y sus elementos*/
+
+.barra_lateral_izquierda {
+    float: left;
+    max-width: 400px;
+    background-color:#A5D7E8;
+    align-items: baseline;
+}
+
+.barra_lateral_izquierda h3 {
+    font-size: 30px;
+    border-bottom: 5px solid #6096B4;
+    width: 140px;
+    color: #6096B4;
+}
+
+.barra_lateral_izquierda #contacto h2 {
+    font-size: 30px;
+    border-bottom: 5px solid #6096B4;
+    width: 280px;
+    color: #6096B4;  
+}
+/*Barra lateral derecha y todos sus elementos*/
+
+.barra_lateral_derecha {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 60%;
+    align-items: baseline;
+}
+
+.barra_lateral_derecha #educacion h2 {
+    border-bottom: 5px solid #6096B4;
+    width: 190px;
+    font-size: 30px;
+    color: #6096B4;
+}
+
+.barra_lateral_derecha #habilidades h2 {
+    font-size: 30px;
+    border-bottom: 5px solid #6096B4;
+    width: 520px;
+    color: #6096B4;
+
+}
+
+.tabla th {
+    border: 3px solid #6096B4;
+}
+
+.tabla td {
+    border: 3px solid #6096B4;   
+}
+
+/*Estilos Formulario*/
+
+#formulario {
+    font-size: 40px;
+    color: #6096B4;
+}
+
+#formulario h2 {
+    border-bottom: solid 5px #6096B4;
+    width: 220px;
+    font-size: 35px;
+}
+
+#formulario input {
+    width: 365px;
+    height: 25px;
+}
+
+#tematica {
+    width: 255px;
+    height: 25px;
+    text-align: center;
+    color:#0A2647;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    color: #6096B4;
+    background-color: #0A2647;
+    font-size: 20px;
+}
